@@ -24,7 +24,7 @@ alt sqs: http://sqs.eu-west-2.queue.localhost.localstack.cloud:4566/000000000000
 
 ## Example S3 calls from aws-cli
 
-`aws --endpoint-url=http://localhost:4566 s3 ls s3://local-bucket`
+`aws --endpoint-url=http://localhost:4566 s3 ls s3://local-bucket`  
 `aws --endpoint-url=http://localhost:4566 s3 cp my-file.txt s3://local-bucket/my-file.txt`
 
 [Local usage with aws-cli and awslocal documentation](https://docs.localstack.cloud/user-guide/integrations/aws-cli/)
